@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	font-family:Calibri;
+	font-size:15px;
+}
+body{
+	background-image:url(../_img/background.jpg);
+	background-attachment:fixed;
+}
+a:link, a:visited, a:active{
+	color: #000;
+	text-decoration: none;
+}
+a:hover{
+	color: #000;
+	text-decoration:underline;
+}
+.msgErro{
+	color:#ff799a;
+	font-size:12px;
+	font-weight:bold;
+	display:none;
+}
+.tituloTblDireita{
+	text-align:right;
+	font-weight:bold;
+	vertical-align:top;
+}
+div#mainFundo{
+	background-color:#ff799a;
+	width:800px;
+	margin:auto;
+}
+div#main{
+	width:800px;
+	background-color:#000;
+	margin:auto;
+	color:#FFF;
+}
+div#header{
+	padding-top:20px;
+}
+div#headerLogo{
+	float:left;
+	margin-left:20px;
+}
+div#headerMenu{
+	float:right;
+	margin-top:33px;
+}
+.btnMenu{
+	margin-left:20px;
+	margin-right:20px;
+}
+div#content{
+	clear:both;
+	padding-left:20px;
+	padding-right:20px;
+	text-align:justify;
+}
+.cliente{
+	padding-top:20px;
+	width:760px;
+	height:150px;
+}
+div#allClientes{
+	padding-bottom:20px;
+}
+.logoCliente{
+	border:3px solid #d7ff30;
+	width:150px;
+	height:150px;
+	float:left;
+}
+.infoCliente{
+	width:590px;
+	height:150px;
+	float:right;
+}
+.textoCliente{
+	margin-top:0px;
+}
+.portfolio{
+	padding-top:20px;
+	width:760px;
+	height:auto;
+}
+p#texto{
+	padding-top:20px;
+}
+.membro{
+	height:864px;
+}
+.photo{
+	width:200px;
+	height:260px;
+	float:left;
+	margin-top:20px;
+}
+.database{
+	width:540px;
+	height:260px;
+	float:right;
+	margin-top:20px;
+}
+.nome{
+	color:#d7ff30;
+	text-align:left;
+	margin-top:0px;
+}
+.bio{
+	text-align:justify;
+}
+div#facePeq{
+	float:left;
+}
+div#inPeq{
+	margin-left:38px;
+}
+div#twitterPeq{
+	margin-left:38px;	
+}
+div#footer{
+	height:94px;
+}
+div#footerDot{
+	height:5px;
+	background-image:url(../_img/dot.png);
+	background-repeat:repeat-x;
+}
+div#footerTxt{
+	float:left;
+	margin-left:20px;
+}
+div#footerTxtTel{
+	font-size:20px;
+	margin-top:14px;
+}
+div#footerTxtEnd{
+	font-size:14px;
+	margin-bottom:20px;
+}
+div#footerSocial{
+	float:right;
+}
+div#btnTwitter{
+	float:left;
+	margin-top:31px;
+	margin-right:20px;
+}
+div#btnFacebook{
+	float:right;
+	margin-top:23px;
+	margin-right:20px;
+}
+div#gambi{
+	padding-bottom:20px;
+}
